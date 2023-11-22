@@ -14,6 +14,7 @@ public class studentClassMap implements studentInterfaceMap {
 		return cp;
 	}
 
+
 	@Override
 	public student stdReq(com.project2.dto.req req) {
 		student s = new student();
